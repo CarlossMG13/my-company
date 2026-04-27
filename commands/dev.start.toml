@@ -1,0 +1,9 @@
+description = "Start the development environment"
+
+prompt = """
+        Based on the {{args}} create a git branch. Use semantic commits verbs like feat, fix, perf, etc.
+
+        Example:
+        Input: feat: I want to add user authentication to my app
+        Output: feat/add-user-authentication
+"""
